@@ -1,0 +1,38 @@
+<!-- HTML에서 react 사용하는법 JSX 사용안한 과정 -->
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <div id="root"></div>
+    </body>
+    <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+        const root = document.getElementById('root');
+        let counter = 0;
+        function countUp(){
+            counter++;
+            render();
+            console.log("올라갔습니다");
+        }
+        function countDown(){
+            counter--;
+            render();
+            console.log("내려갔습니다");
+        }
+        function render(){
+            ReactDOM.render(<Container/>, root);
+        }
+
+        function Container(){
+            return(
+                <div>
+                    <h1>Counter:{counter}</h1>
+                    <button onClick={countUp}>Click me + 1</button>
+                    <button onClick={countDown}>Click me - 1</button>
+                </div>
+            );
+        }
+        render();
+    </script>
+</html>
