@@ -18,6 +18,11 @@ const Sidebar = () => {
         <ul>
           <li><Link to="/">Dashboard</Link></li>
           <li><Link to="/Task0924">2024.09.24 Task</Link></li>
+          <li><Link to="/Study1008">2024.10.08 Study</Link></li>
+          <li><Link to="/Task1008">2024.10.08 Task</Link></li>
+          <li><Link to="/#">2024.00.00 Task</Link></li>
+          <li><Link to="/#">2024.00.00 Task</Link></li>
+          <li><Link to="/#">2024.00.00 Task</Link></li>
           <li><Link to="/#">2024.00.00 Task</Link></li>
           <li><Link to="/#">2024.00.00 Task</Link></li>
           <li><Link to="/#">2024.00.00 Task</Link></li>
