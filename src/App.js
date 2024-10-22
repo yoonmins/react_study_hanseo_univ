@@ -6,6 +6,7 @@ import Task0924 from './pages/Task0924';
 import Study1008 from './pages/Study1008';
 import Task1008 from './pages/Task1008';
 import Study1015 from './pages/Study1015';
+import MiddleTermTest from './pages/MiddleTermTest';
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
               <Route path="/Study1008" element={<Study1008 />} />
               <Route path="/Task1008" element={<Task1008 />} />
               <Route path="/Study1015" element={<Study1015 />} />
+              <Route path="/MiddleTermTest" element={<MiddleTermTest />} />
             </Routes>
         </div>
       </div>

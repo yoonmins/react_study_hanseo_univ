@@ -35,9 +35,9 @@ const Study1015 = () => {
 function ButtonOnclickEvent(){
     const [text, setText] = useState('');
 
-    function handleClick(num){
-        setText('Click ${num} button');
-    }
+    function handleClick(num) {
+        setText(`Clicked ${num} button`);
+      }
 
     return (
         <div className="button-css">
