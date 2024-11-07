@@ -23,7 +23,7 @@ const Sidebar = () => {
           <li><Link to="/Study1015" className='study-text'>2024.10.15 Study</Link></li>
           <li><Link to="/MiddleTermTest" className='study-text'>2024 MiddleTermTest</Link></li>
           <li><Link to="/#">2024.00.00 Task</Link></li>
-          <li><Link to="/#">2024.00.00 Task</Link></li>
+          <li><Link to="/Study1105">2024.11.05 Study</Link></li>
           <li><Link to="/#">2024.00.00 Task</Link></li>
           <li><Link to="/#">2024.00.00 Task</Link></li>
         </ul>

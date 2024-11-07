@@ -1,3 +1,6 @@
-p{
+body{
+    background-color: #1F2020;
+}
+p, li, h2, h1{
     color: white;
 }

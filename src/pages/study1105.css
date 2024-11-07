@@ -1,0 +1,66 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.task1008-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.task1008-container h1{
+    border-style: groove;
+    border-color: rgba(205, 79, 56, 0.9);
+    border-radius: 10px;
+    width: 50vw;
+    margin-bottom: 20px;
+}
+li{
+    list-style: none;
+}
+.todoList{
+    background-color: rgba(205, 79, 56, 0.9);
+    height: 70vh;
+    width: 50vw;
+    border-radius: 10px;
+}
+.contetnt_head{
+    margin-top: 30px;
+}
+.contetnt_head input{
+    background-color: white;
+    color: rgba(205, 79, 56, 0.9);
+    width: 500px;
+    height: 50px;
+}
+.content_head_button{
+    background-color: white;
+    border-radius: 10px;
+    border-color: rgba(205, 79, 56, 0.9);
+    margin-left: 20px;
+    height: 50px;
+    width: 80px;
+    font-weight: bold;
+    color: rgba(205, 79, 56, 0.9);
+}
+.content_list{
+    margin-top: 25px;
+}
+.todolist_text{
+    font-size: 30px;
+    margin: 0 20px;
+}
+.content_list_li{
+    text-align: start;
+}
+.content_list_li button{
+    border-radius: 10px;
+    border-color: rgba(205, 79, 56, 0.9);
+    color: rgba(205, 79, 56, 0.9);
+}
+input{
+    border-radius: 10px;
+    border-color: chocolate;
+}
