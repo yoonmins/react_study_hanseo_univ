@@ -6,23 +6,22 @@ import MyForm from './component/FormComponent'
 
 function UserList(){
     const [users, setUsers] = useState([]);
-
     console.log(users);
 
     useEffect(() => {
         const loadStats = async () => {
           const data = await fetchDashboardStats();
-          setUsers(data);
+          setUsers(data.user);
         };
         loadStats();
       }, []);
 
     return(
-        <div>
+        <div>s
             <h2>사용자 목록</h2>
             <ul>
                 {users.map((user) =>(
-                    <li ket={user.id}>{user.name}</li>
+                    <li key={user.id}>{user.name}</li>
                 ))}
             </ul>
         </div>
@@ -30,8 +29,6 @@ function UserList(){
 }
 
 function Study1105(){
-
-
     return(
         <div>
             <UserList/>

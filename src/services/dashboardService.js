@@ -7,6 +7,6 @@ export const fetchDashboardStats = async () => {
     return response.data;
   } catch (error) {
     console.error('대시보드 통계 데이터 가져오기 실패:', error);
-    return { id:0, name: null }; 
+    return { user: [] }; 
   }
 };
