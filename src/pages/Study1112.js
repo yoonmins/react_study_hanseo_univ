@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react"
+import React from "react"
 import './study.css';
 import ParentComponent from "./component/ParaentComponent";
 import { Link } from 'react-router-dom';

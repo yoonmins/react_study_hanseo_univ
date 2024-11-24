@@ -10,6 +10,7 @@ import Study1015 from './pages/Study1015';
 import MiddleTermTest from './pages/MiddleTermTest';
 import Study1105 from './pages/Study1105';
 import Study1112 from './pages/Study1112';
+import Study1119 from './pages/Study1119';
 import LocalStoragePage from './pages/LocalStoragePage';
 import SessionStoragePage from './pages/SessionStoragePage';
 import CookiePage from './pages/CookiePage';
@@ -32,6 +33,7 @@ function App() {
               <Route path="/Study1105" element={<Study1105 />} />
               <Route path="/user/:id" element={<UserPage />} />
               <Route path="/Study1112" element={<Study1112 />} />
+              <Route path="/Study1119" element={<Study1119 />} />
               <Route path="/local" element={<LocalStoragePage />} />
               <Route path="/session" element={<SessionStoragePage />} />
               <Route path="/cookie" element={<CookiePage />} />
