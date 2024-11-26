@@ -16,6 +16,8 @@ import SessionStoragePage from './pages/SessionStoragePage';
 import CookiePage from './pages/CookiePage';
 import UserPage from './pages/UserPage';
 import './App.css';
+import Study1126 from './pages/Study1126';
+import Task1126 from './pages/Task1126';
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
               <Route path="/user/:id" element={<UserPage />} />
               <Route path="/Study1112" element={<Study1112 />} />
               <Route path="/Study1119" element={<Study1119 />} />
+              <Route path="/Study1126" element={<Study1126 />} />
+              <Route path="/Task1126" element={<Task1126 />} />
               <Route path="/local" element={<LocalStoragePage />} />
               <Route path="/session" element={<SessionStoragePage />} />
               <Route path="/cookie" element={<CookiePage />} />
