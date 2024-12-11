@@ -18,6 +18,7 @@ import UserPage from './pages/UserPage';
 import './App.css';
 import Study1126 from './pages/Study1126';
 import Task1126 from './pages/Task1126';
+import FinalTermTest from './pages/FinalTermTest';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
               <Route path="/local" element={<LocalStoragePage />} />
               <Route path="/session" element={<SessionStoragePage />} />
               <Route path="/cookie" element={<CookiePage />} />
+              <Route path="/FinalTermTest" element={<FinalTermTest />} />
             </Routes>
         </div>
       </div>

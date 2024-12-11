@@ -23,7 +23,7 @@ function LoginForm() {
   const handleLogin = async () => {
     try {
       const response = await axios.post('http://localhost:3003/login', {
-        id: id,
+        username: username,
         password: password,
       });
 
@@ -39,8 +39,8 @@ function LoginForm() {
 
   return (
     <form onSubmit={handleLogin}>
-      <input type="text" value={id} onChange={(e) => setUsername(e.target.value)} placeholder="Username" />
-      <input type="password" value={name} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
+      <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} placeholder="Username" />
+      <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
       <button type="submit">Login</button>
     </form>
   );

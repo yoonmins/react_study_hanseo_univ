@@ -21,7 +21,7 @@ const Sidebar = () => {
           <li><Link to="/Study1008" className='study-text'>2024.10.08 Study</Link></li>
           <li><Link to="/Task1008">2024.10.08 Task</Link></li>
           <li><Link to="/Study1015" className='study-text'>2024.10.15 Study</Link></li>
-          <li><Link to="/MiddleTermTest" className='study-text'>2024 MiddleTermTest</Link></li>
+          <li><Link to="/MiddleTermTest" className='study-text'>2024 MiddleTerm Test</Link></li>
           <li><Link to="/#">2024.00.00 Task</Link></li>
           <li><Link to="/Study1105" className='study-text'>2024.11.05 Study</Link></li>
           <li><Link to="/Study1112" className='study-text'>2024.11.12 Study</Link></li>
@@ -29,6 +29,7 @@ const Sidebar = () => {
           <li><Link to="/Study1119" className='study-text'>2024.11.19 Study</Link></li>
           <li><Link to="/Study1126" className='study-text'>2024.11.26 Study</Link></li>
           <li><Link to="/Task1126">2024.11.26 Task</Link></li>
+          <li><Link to="/FinalTermTest"  className='study-text'>2024 FinalTerm Test</Link></li>
         </ul>
       </nav>
     </div>
